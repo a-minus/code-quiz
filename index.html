@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Web tab title -->
+  <title>Code Quiz</title>
+  <!-- Reset file that erases all different browser default HTML -->
+  <link rel="stylesheet" href="reset.css">
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Abel|Jura|Montserrat|Open+Sans|Rajdhani|Saira|Unica+One|Varela+Round&display=swap"
+    rel="stylesheet">
+  <!-- font-family: 'Varela Round', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Unica One', cursive;
+    font-family: 'Saira', sans-serif;
+    font-family: 'Jura', sans-serif; =eh=
+    font-family: 'Abel', sans-serif;
+    font-family: 'Open Sans', sans-serif; -->
+
+  <!-- Linking CSS file to this HTML -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div>
+    <button id="highScores">Scores</button>
+  </div>
+
+  <div id="quiz" class="center">
+    <div id="results"></div>
+  </div>
+
+  <br><br>
+
+  <div id="timer" class="center">
+  </div>
+
+  <div id="startQuiz" class="center" onClick="this.style.visibility='hidden'">
+    <button id="startBtn">Start Quiz</button>
+    <br><br>
+    <p>
+      How to Play:
+      <br><br>
+      You have one minute to answer all the questions.
+      <br>
+      If answered correctly, you'll recieve 5 extra seconds to your timer.
+      <br>
+      If answered incorrectly, you'll lose 5 seconds.
+
+    </p>
+  </div>
+
+
+  <script src="assets/js/questions.js"></script>
+  <script src="assets/js/app.js"></script>
+
+</body>
+
+</html>

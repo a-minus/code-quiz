@@ -1,8 +1,8 @@
 const timer = document.querySelector("#timer");
 const startQuizBtn = document.querySelector("#startQuiz");
 const quiz = document.querySelector('#quiz');
-let scoreBtn = document.querySelector("#highScores");
 const retry = document.querySelector('#retry');
+let scoreBtn = document.querySelector("#highScores");
 
 let secondsLeft = 20;
 let currentQuestion = 0;
@@ -79,7 +79,7 @@ function displayQuestion() {
 	let questList = questions[currentQuestion].choices.map((question) => {
 		return `<button class="answerBtn" onclick="answerQuestion('${question}')">${question}</button>`;
 	})
-	quiz.innerHTML = `${questions[currentQuestion].title}<br>${questList.join("")}`;
+	quiz.innerHTML = `${questions[currentQuestion].question}<br>${questList.join("")}`;
 }
 
 // Adds or subtracts time depending on answer

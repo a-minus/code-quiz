@@ -1,32 +1,32 @@
 const questions = [
   {
-    title: "Which Hogwarts house is Harry in?",
-    choices: ["Slytherin", "Gryffindor", "Hufflepuff", "Ravenclaw"],
-    answer: "Gryffindor"
+    question: "How many keys are on a full-length piano?",
+    choices: ["75", "88", "100", "132"],
+    answer: "88"
   },
   {
-    title: "Who is the broomstick professor?",
-    choices: ["Hooch", "McGonagall", "Dumbledore", "Finch"],
-    answer: "Hooch"
+    question: "Which of these is a woodwind instrument that doesn't have a reed?",
+    choices: ["Flute", "Clarinet", "Bassoon", "Trombone"],
+    answer: "Flute"
   },
   {
-    title: "Harry Potter's best friends name:",
-    choices: ["James", "Dean", "Draco", "Ron"],
-    answer: "Ron"
+    question: "When should the conductor make a sound during a performance?",
+    choices: ["When someone plays a wrong note", "The beginning", "The end", "Never"],
+    answer: "Never"
   },
   {
-    title: "What type of creature is Crookshanks?",
-    choices: ["Dragon", "Cat", "Dog", "Owl"],
-    answer: "Cat"
+    question: "Which of these famous composers was deaf?",
+    choices: ["Brahms", "Mozart", "Beethoven", "The Blue Man Group"],
+    answer: "Beethoven"
   },
   {
-    title: "Who killed Dumbledore?",
-    choices: ["Draco", "Bellatrix", "Voldemort", "Snape"],
-    answer: "Snape"
+    question: "What type of instrument is the piano?",
+    choices: ["Woodwind", "String", "Rhythm", "Percussion"],
+    answer: "Percussion"
   },
   {
-    title: "Who is Bill's daughter??",
-    choices: ["Hermione", "Luna", "Victoire", "Minerva"],
-    answer: "Victoire"
+    question: "What interval has been considered evil by some people?",
+    choices: ["Octave", "Perfect 5th", "Imperfect 4th", "Tritone"],
+    answer: "Tritone"
   },
 ];
